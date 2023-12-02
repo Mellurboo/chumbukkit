@@ -1,0 +1,37 @@
+#
+#   Ava "LikesBread" 2023
+#   Chum SMP - https://discord.com/invite/bmz4wayCZb
+#
+
+# Messages for the warden
+playerJoinMessages: [
+  "§awhat a shame,",
+  "§aLook out for the one from birmingham,",
+  "§abring class A drugs only!!!!,",
+  "§aLook out,",
+  "§aOnly you can prevent v-bucks scams,",
+  "§aTHATS WHAT THE MASK ISSSSDDAS,",
+  "§afaking speedruns is not allowed!",
+  "§aAll thigh pics must go through izzy first,",
+  "§ayou want to play lets play,",
+  "§aWindows fanboy,",
+  "§aTopG,",
+  "§aWatch your wallets!",
+  "§aSilver instalock reyna main,",
+  "§ayou feel a chill go down your spine,"
+]
+
+playerQuitMessages: [
+  "§cFinally",
+  "§cWhat a pussy",
+  "§cCombat log?",
+  "§cfreelo",
+  "§cthis is a nice color. anyway",
+  "§cPeace control",
+  "§cGGEZ",
+  "§cthat one person who thinks theyre part of the friend group",
+  "§cSkibbidi toilet 69420",
+  "§c(Willy watcher 9000)",
+  "§cI think",
+  "§cAnd keep the change you filthy animal"
+]

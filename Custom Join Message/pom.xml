@@ -45,8 +45,11 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
+                <includes>
+                    <include>**/*.yml</include>
+                </includes>
             </resource>
-        </resources>
+    </resources>
     </build>
 
     <repositories>
