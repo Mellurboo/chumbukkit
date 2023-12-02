@@ -1,0 +1,4 @@
+name: WardenMobDrop
+version: '1.0'
+main: com.mellurboo.wardenmobdrop.WardenMobDrop
+api-version: '1.20'

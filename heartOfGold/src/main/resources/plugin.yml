@@ -1,0 +1,4 @@
+name: heartOfGold
+version: '${project.version}'
+main: com.mellurboo.heartofgold.HeartOfGold
+api-version: '1.20'

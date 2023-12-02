@@ -1,0 +1,4 @@
+name: heartOfGold
+version: '1.0'
+main: com.mellurboo.heartofgold.HeartOfGold
+api-version: '1.20'

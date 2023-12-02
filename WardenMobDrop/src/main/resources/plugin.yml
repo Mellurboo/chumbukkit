@@ -1,0 +1,4 @@
+name: WardenMobDrop
+version: '${project.version}'
+main: com.mellurboo.wardenmobdrop.WardenMobDrop
+api-version: '1.20'

@@ -1,0 +1,4 @@
+name: customJoinMessage
+version: '${project.version}'
+main: com.mellurboo.customjoinmessage.CustomJoinMessage
+api-version: '1.20'
