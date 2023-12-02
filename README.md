@@ -17,7 +17,7 @@ Currently plugins are going through a rewrite where they will be able to access 
 ```
 ### Jetbrains IDEA - Reccomended
 ```http
-    https://www.jetbrains.com/idea/download/
+  https://www.jetbrains.com/idea/download/
 ```
 
 
