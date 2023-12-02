@@ -5,7 +5,7 @@ Currently plugins are going through a rewrite where they will be able to access 
 
 - customJoinMessage,    [Not Done]
 - heartOfGold,          [Not Done]
-- WardenMobDrop         [In Progress]
+- WardenMobDrop         [Done]
 
 
 ## PAPER MC - Minecraft 1.20

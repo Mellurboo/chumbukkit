@@ -1,0 +1,24 @@
+#
+#   Myles "Mellurboo" Wilson 2023
+#   Chum SMP - https://discord.com/invite/bmz4wayCZb
+#
+
+# Items that can be dropped by the warden
+wardenLootPool:
+  - SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+  - NETHERITE_UPGRADE_SMITHING_TEMPLATE
+  - NETHERITE_SCRAP
+  - ENCHANTED_GOLDEN_APPLE
+  - END_CRYSTAL
+  - DIAMOND_LEGGINGS
+  - AMETHYST_SHARD
+  - NAME_TAG
+  - SADDLE
+  - TOTEM_OF_UNDYING
+
+# Messages for the warden
+wardenSlainMessage: "§4[§cWARDEN§4]§c It is Slain"
+wardenSpawnMessage: "§4[§cWARDEN§4]§c The air runs cold"
+
+#multipliers
+wardenExpMultipler: 4
