@@ -69,7 +69,7 @@ public final class CustomJoinMessage extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (label.equalsIgnoreCase("reloadCustomJoinMessage")) {
-            if (sender.hasPermission("CustomJoinMessage.reloadconfig")) {
+            if (sender.hasPermission("customjoinmessage.reloadconfig")) {
                 reloadConfig();
                 loadConfig(); // Reload your custom configuration loading logic
                 sender.sendMessage("§aCustom Join Message config reloaded.");
