@@ -1,0 +1,8 @@
+name: SocialCommands
+version: '${project.version}'
+main: com.avalikesbread.socialcommands.SocialCommands
+api-version: '1.20'
+commands:
+  Discord:
+    description: Get the discord's server link!
+    usage: /discord
