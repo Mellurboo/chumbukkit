@@ -2,3 +2,8 @@ name: heartOfGold
 version: '${project.version}'
 main: com.mellurboo.heartofgold.HeartOfGold
 api-version: '1.20'
+
+commands:
+  heartOfGold.reloadConfig:
+    description: reload the config
+    usage: command

@@ -26,7 +26,7 @@ public final class WardenMobDrop extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
         Bukkit.getLogger().info("§4[§cWARDEN TWEAKS§4]§c STARTED SUCCESSFULLY");
         Bukkit.getLogger().info(wardenLootPool[0].name());
-        getCommand("reloadWardenConfig").setExecutor(this);
+        getCommand("wardendrops.reloadconfig").setExecutor(this);
     }
 
     private void loadConfig() {
@@ -71,8 +71,8 @@ public final class WardenMobDrop extends JavaPlugin implements Listener {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (label.equalsIgnoreCase("reloadWardenConfig")) {
-            if (sender.hasPermission("wardenmobdrop.reloadconfig")) {
+        if (label.equalsIgnoreCase("wardendrops.reloadconfig")) {
+            if (sender.hasPermission("wardendrops.reloadconfig")) {
                 reloadConfig();
                 loadConfig(); // Reload your custom configuration loading logic
                 sender.sendMessage("§aWardenMobDrop config reloaded.");

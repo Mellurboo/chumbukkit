@@ -3,7 +3,7 @@
 #   Chum SMP - https://discord.com/invite/bmz4wayCZb
 #
 
-# Messages for the warden
+# playerJoin Message option
 playerJoinMessages: [
   "§awhat a shame,",
   "§aLook out for the one from birmingham,",
@@ -21,6 +21,7 @@ playerJoinMessages: [
   "§ayou feel a chill go down your spine,"
 ]
 
+# playerQuit Message option
 playerQuitMessages: [
   "§cFinally",
   "§cWhat a pussy",

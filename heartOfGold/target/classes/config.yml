@@ -1,0 +1,13 @@
+#
+# Myles "Mellurboo" Wilson 2023
+# https://www.discord.com/invites/bmz4wayCZb
+#
+
+maxObtainableHealth: 26
+chanceOfObtaining: 15
+healthGained: 1
+canUseSilkTouch: false
+minimumHealth: 22
+healthLostOnDeath: 2
+
+healthGainedMessage: "§6Chrysus has blessed you, your total health is now §c♥"
