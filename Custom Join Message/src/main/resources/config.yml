@@ -3,36 +3,103 @@
 #   Chum SMP - https://discord.com/invite/bmz4wayCZb
 #
 
+#
+# For the MVP colors, use SimplyMC to make them gradiants
+# then just put them in the MVP varient
+#
+
 # playerJoin Message option
 playerJoinMessages: [
-  "§awhat a shame,",
-  "§aLook out for the one from birmingham,",
-  "§abring class A drugs only!!!!,",
-  "§aLook out,",
-  "§aOnly you can prevent v-bucks scams,",
-  "§aTHATS WHAT THE MASK ISSSSDDAS,",
-  "§afaking speedruns is not allowed!",
-  "§aAll thigh pics must go through izzy first,",
-  "§ayou want to play lets play,",
-  "§aWindows fanboy,",
-  "§aTopG,",
-  "§aWatch your wallets!",
-  "§aSilver instalock reyna main,",
-  "§ayou feel a chill go down your spine,"
+  "what a shame,",
+  "Look out for the one from birmingham,",
+  "bring class A drugs only!!!!,",
+  "Look out,",
+  "Only you can prevent v-bucks scams,",
+  "THATS WHAT THE MASK ISSSSDDAS,",
+  "faking speedruns is not allowed!",
+  "All thigh pics must go through izzy first,",
+  "you want to play lets play,",
+  "Windows fanboy,",
+  "TopG,",
+  "Watch your wallets!",
+  "Silver instalock reyna main,",
+  "you feel a chill go down your spine,"
+]
+
+MVPplayerJoinMessages: [
+  "§x§D§8§C§0§4§Cw§x§E§0§C§7§5§0h§x§E§8§C§E§5§3a§x§E§F§D§5§5§7t §x§F§7§D§C§5§Aa §x§F§F§E§3§5§Es§x§F§F§D§9§5§7h§x§F§F§C§F§4§Fa§x§F§F§C§5§4§8m§x§F§F§B§B§4§0e§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CL§x§D§B§C§2§4§Do§x§D§D§C§5§4§Eo§x§E§0§C§7§5§0k §x§E§2§C§9§5§1o§x§E§5§C§C§5§2u§x§E§8§C§E§5§3t §x§E§A§D§0§5§4f§x§E§D§D§3§5§6o§x§E§F§D§5§5§7r §x§F§2§D§7§5§8t§x§F§5§D§A§5§9h§x§F§7§D§C§5§Ae §x§F§A§D§E§5§Co§x§F§C§E§1§5§Dn§x§F§F§E§3§5§Ee §x§F§F§E§0§5§Cf§x§F§F§D§C§5§9r§x§F§F§D§9§5§7o§x§F§F§D§6§5§4m §x§F§F§D§2§5§2b§x§F§F§C§F§4§Fi§x§F§F§C§C§4§Dr§x§F§F§C§8§4§Am§x§F§F§C§5§4§8i§x§F§F§C§2§4§5n§x§F§F§B§E§4§3g§x§F§F§B§B§4§0h§x§F§F§B§8§3§Ea§x§F§F§B§4§3§Bm§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§Cb§x§D§B§C§3§4§Er§x§D§F§C§6§4§Fi§x§E§2§C§9§5§1n§x§E§5§C§C§5§2g §x§E§8§C§F§5§4c§x§E§C§D§2§5§5l§x§E§F§D§4§5§7a§x§F§2§D§7§5§8s§x§F§5§D§A§5§As §x§F§9§D§D§5§BA §x§F§C§E§0§5§Dd§x§F§F§E§3§5§Er§x§F§F§D§F§5§Bu§x§F§F§D§B§5§8g§x§F§F§D§7§5§5s §x§F§F§D§2§5§2o§x§F§F§C§E§4§Fn§x§F§F§C§A§4§Cl§x§F§F§C§6§4§8y§x§F§F§C§2§4§5!§x§F§F§B§E§4§2!§x§F§F§B§9§3§F!§x§F§F§B§5§3§C!§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CL§x§E§3§C§A§5§1o§x§E§E§D§4§5§6o§x§F§9§D§E§5§Bk §x§F§F§D§C§5§9o§x§F§F§C§E§4§Eu§x§F§F§B§F§4§4t§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CO§x§D§B§C§2§4§Dn§x§D§D§C§5§4§El§x§E§0§C§7§5§0y §x§E§3§C§A§5§1y§x§E§5§C§C§5§2o§x§E§8§C§E§5§3u §x§E§B§D§1§5§5c§x§E§E§D§3§5§6a§x§F§0§D§6§5§7n §x§F§3§D§8§5§8p§x§F§6§D§B§5§Ar§x§F§8§D§D§5§Be§x§F§B§D§F§5§Cv§x§F§E§E§2§5§De§x§F§F§E§1§5§Dn§x§F§F§D§E§5§At §x§F§F§D§A§5§8v§x§F§F§D§7§5§5-§x§F§F§D§3§5§3b§x§F§F§D§0§5§0u§x§F§F§C§D§4§Dc§x§F§F§C§9§4§Bk§x§F§F§C§6§4§8s §x§F§F§C§2§4§6s§x§F§F§B§F§4§3c§x§F§F§B§B§4§1a§x§F§F§B§8§3§Em§x§F§F§B§4§3§Cs§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CT§x§D§B§C§3§4§DH§x§D§E§C§6§4§FA§x§E§1§C§8§5§0T§x§E§4§C§B§5§2S §x§E§8§C§E§5§3W§x§E§B§D§1§5§5H§x§E§E§D§4§5§6A§x§F§1§D§6§5§8T §x§F§4§D§9§5§9T§x§F§7§D§C§5§AH§x§F§A§D§F§5§CE §x§F§D§E§2§5§DM§x§F§F§E§1§5§DA§x§F§F§D§D§5§AS§x§F§F§D§9§5§7K §x§F§F§D§5§5§4I§x§F§F§D§1§5§1S§x§F§F§C§D§4§ES§x§F§F§C§9§4§BS§x§F§F§C§5§4§8S§x§F§F§C§1§4§5D§x§F§F§B§D§4§2D§x§F§F§B§9§3§FA§x§F§F§B§5§3§CS§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§Cf§x§D§B§C§3§4§Da§x§D§E§C§5§4§Fk§x§E§1§C§8§5§0i§x§E§4§C§A§5§1n§x§E§6§C§D§5§3g §x§E§9§D§0§5§4s§x§E§C§D§2§5§5p§x§E§F§D§5§5§7e§x§F§2§D§7§5§8e§x§F§5§D§A§5§9d§x§F§8§D§D§5§Br§x§F§B§D§F§5§Cu§x§F§E§E§2§5§Dn§x§F§F§E§1§5§Ds §x§F§F§D§D§5§Ai§x§F§F§D§A§5§7s §x§F§F§D§6§5§4n§x§F§F§D§2§5§2o§x§F§F§C§F§4§Ft §x§F§F§C§B§4§Ca§x§F§F§C§7§4§9l§x§F§F§C§4§4§7l§x§F§F§C§0§4§4o§x§F§F§B§C§4§1w§x§F§F§B§8§3§Ee§x§F§F§B§5§3§Cd§x§F§F§B§1§3§9!",
+  "§x§D§8§C§0§4§CA§x§D§A§C§2§4§Dl§x§D§D§C§4§4§El §x§D§F§C§6§4§Ft§x§E§1§C§8§5§0h§x§E§3§C§A§5§1i§x§E§6§C§C§5§2g§x§E§8§C§E§5§3h §x§E§A§D§0§5§4p§x§E§D§D§3§5§6i§x§E§F§D§5§5§7c§x§F§1§D§7§5§8s §x§F§4§D§9§5§9m§x§F§6§D§B§5§Au§x§F§8§D§D§5§Bs§x§F§A§D§F§5§Ct §x§F§D§E§1§5§Dg§x§F§F§E§3§5§Eo §x§F§F§E§0§5§Ct§x§F§F§D§D§5§Ah§x§F§F§D§A§5§7r§x§F§F§D§7§5§5o§x§F§F§D§4§5§3u§x§F§F§D§1§5§1g§x§F§F§C§E§4§Fh §x§F§F§C§B§4§Di§x§F§F§C§9§4§Az§x§F§F§C§6§4§8z§x§F§F§C§3§4§6y §x§F§F§C§0§4§4f§x§F§F§B§D§4§2i§x§F§F§B§A§4§0r§x§F§F§B§7§3§Ds§x§F§F§B§4§3§Bt§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§Cy§x§D§C§C§3§4§Eo§x§D§F§C§7§4§Fu §x§E§3§C§A§5§1w§x§E§7§C§D§5§3a§x§E§B§D§1§5§5n§x§E§E§D§4§5§6t §x§F§2§D§7§5§8t§x§F§6§D§B§5§Ao §x§F§9§D§E§5§Bp§x§F§D§E§1§5§Dl§x§F§F§E§1§5§Ca§x§F§F§D§C§5§9y §x§F§F§D§7§5§5l§x§F§F§D§2§5§2e§x§F§F§C§E§4§Et§x§F§F§C§9§4§Bs §x§F§F§C§4§4§7p§x§F§F§B§F§4§4l§x§F§F§B§B§4§0a§x§F§F§B§6§3§Dy§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CW§x§D§E§C§5§4§Fi§x§E§4§C§B§5§2n§x§E§A§D§0§5§4d§x§F§0§D§6§5§7o§x§F§6§D§B§5§Aw§x§F§C§E§0§5§Ds §x§F§F§D§F§5§Bf§x§F§F§D§7§5§5a§x§F§F§D§0§5§0n§x§F§F§C§8§4§Ab§x§F§F§C§0§4§4o§x§F§F§B§9§3§Fy§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CT§x§E§C§D§2§5§5o§x§F§F§E§3§5§Ep§x§F§F§C§A§4§CG§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§CW§x§D§D§C§4§4§Ea§x§E§2§C§9§5§1t§x§E§7§C§D§5§3c§x§E§C§D§2§5§5h §x§F§0§D§6§5§7y§x§F§5§D§A§5§Ao§x§F§A§D§F§5§Cu§x§F§F§E§3§5§Er §x§F§F§D§D§5§9w§x§F§F§D§7§5§5a§x§F§F§D§0§5§0l§x§F§F§C§A§4§Cl§x§F§F§C§4§4§7e§x§F§F§B§E§4§2t§x§F§F§B§7§3§Es§x§F§F§B§1§3§9!",
+  "§x§D§8§C§0§4§CS§x§D§B§C§3§4§Ei§x§D§F§C§6§4§Fl§x§E§2§C§9§5§1v§x§E§5§C§C§5§2e§x§E§8§C§F§5§4r §x§E§C§D§2§5§5i§x§E§F§D§4§5§7n§x§F§2§D§7§5§8s§x§F§5§D§A§5§At§x§F§9§D§D§5§Ba§x§F§C§E§0§5§Dl§x§F§F§E§3§5§Eo§x§F§F§D§F§5§Bc§x§F§F§D§B§5§8k §x§F§F§D§7§5§5r§x§F§F§D§2§5§2e§x§F§F§C§E§4§Fy§x§F§F§C§A§4§Cn§x§F§F§C§6§4§8a §x§F§F§C§2§4§5m§x§F§F§B§E§4§2a§x§F§F§B§9§3§Fi§x§F§F§B§5§3§Cn§x§F§F§B§1§3§9,",
+  "§x§D§8§C§0§4§Cy§x§D§B§C§3§4§Do§x§D§E§C§5§4§Fu §x§E§0§C§8§5§0f§x§E§3§C§A§5§1e§x§E§6§C§D§5§2e§x§E§9§C§F§5§4l §x§E§C§D§2§5§5a §x§E§E§D§4§5§6c§x§F§1§D§7§5§8h§x§F§4§D§9§5§9i§x§F§7§D§C§5§Al§x§F§9§D§E§5§Bl §x§F§C§E§1§5§Dg§x§F§F§E§3§5§Eo §x§F§F§D§F§5§Bd§x§F§F§D§C§5§9o§x§F§F§D§8§5§6w§x§F§F§D§5§5§3n §x§F§F§D§1§5§1y§x§F§F§C§E§4§Eo§x§F§F§C§A§4§Cu§x§F§F§C§6§4§9r §x§F§F§C§3§4§6s§x§F§F§B§F§4§4p§x§F§F§B§C§4§1i§x§F§F§B§8§3§En§x§F§F§B§5§3§Ce§x§F§F§B§1§3§9,"
 ]
 
 # playerQuit Message option
 playerQuitMessages: [
-  "§cFinally",
-  "§cWhat a pussy",
-  "§cCombat log?",
-  "§cfreelo",
-  "§cthis is a nice color. anyway",
-  "§cPeace control",
-  "§cGGEZ",
-  "§cthat one person who thinks theyre part of the friend group",
-  "§cSkibbidi toilet 69420",
-  "§c(Willy watcher 9000)",
-  "§cI think",
-  "§cAnd keep the change you filthy animal"
+  "Finally",
+  "What a pussy",
+  "Combat log?",
+  "freelo",
+  "this is a nice color. anyway",
+  "Peace control",
+  "GGEZ",
+  "that one person who thinks theyre part of the friend group",
+  "Skibbidi toilet 69420",
+  "(Willy watcher 9000)",
+  "I think",
+  "And keep the change you filthy animal"
 ]
+
+MVPplayerQuitMessages: [
+  "§x§D§8§C§0§4§CF§x§E§5§C§C§5§2i§x§F§2§D§7§5§8n§x§F§F§E§3§5§Ea§x§F§F§D§2§5§2l§x§F§F§C§2§4§5l§x§F§F§B§1§3§9y",
+  "§x§D§8§C§0§4§CW§x§E§1§C§8§5§0h§x§E§9§D§0§5§4a§x§F§2§D§7§5§8t §x§F§B§D§F§5§Ca §x§F§F§D§D§5§Ap§x§F§F§D§2§5§2u§x§F§F§C§7§4§9s§x§F§F§B§C§4§1s§x§F§F§B§1§3§9y",
+  "§x§D§8§C§0§4§CC§x§E§1§C§8§5§0o§x§E§9§D§0§5§4m§x§F§2§D§7§5§8b§x§F§B§D§F§5§Ca§x§F§F§D§D§5§At §x§F§F§D§2§5§2l§x§F§F§C§7§4§9o§x§F§F§B§C§4§1g§x§F§F§B§1§3§9?",
+  "§x§D§8§C§0§4§Cf§x§E§8§C§E§5§3r§x§F§7§D§C§5§Ae§x§F§F§D§9§5§7e§x§F§F§C§5§4§8l§x§F§F§B§1§3§9o",
+  "§x§D§8§C§0§4§Ct§x§D§C§C§3§4§Eh§x§D§F§C§6§4§Fi§x§E§3§C§A§5§1s §x§E§6§C§D§5§3i§x§E§A§D§0§5§4s §x§E§D§D§3§5§6a §x§F§1§D§6§5§7n§x§F§4§D§9§5§9i§x§F§8§D§D§5§Bc§x§F§B§E§0§5§Ce §x§F§F§E§3§5§Ec§x§F§F§D§E§5§Bo§x§F§F§D§A§5§7l§x§F§F§D§5§5§4o§x§F§F§D§1§5§1r§x§F§F§C§C§4§D. §x§F§F§C§8§4§Aa§x§F§F§C§3§4§6n§x§F§F§B§F§4§3y§x§F§F§B§A§4§0w§x§F§F§B§6§3§Ca§x§F§F§B§1§3§9y",
+  "§x§D§8§C§0§4§CP§x§D§F§C§6§4§Fe§x§E§6§C§D§5§3a§x§E§D§D§3§5§6c§x§F§4§D§9§5§9e §x§F§B§E§0§5§Cc§x§F§F§D§E§5§Bo§x§F§F§D§5§5§4n§x§F§F§C§C§4§Dt§x§F§F§C§3§4§6r§x§F§F§B§A§4§0o§x§F§F§B§1§3§9l",
+  "§x§D§8§C§0§4§CG§x§F§2§D§7§5§8G§x§F§F§D§2§5§2E§x§F§F§B§1§3§9Z",
+  "§x§D§8§C§0§4§Ct§x§D§A§C§1§4§Dh§x§D§B§C§3§4§Ea§x§D§D§C§4§4§Et §x§D§F§C§6§4§Fo§x§E§0§C§7§5§0n§x§E§2§C§9§5§1e §x§E§4§C§A§5§1p§x§E§5§C§C§5§2e§x§E§7§C§D§5§3r§x§E§9§C§F§5§4s§x§E§A§D§0§5§4o§x§E§C§D§2§5§5n §x§E§E§D§3§5§6w§x§E§F§D§5§5§7h§x§F§1§D§6§5§7o §x§F§3§D§8§5§8t§x§F§4§D§9§5§9h§x§F§6§D§B§5§Ai§x§F§8§D§C§5§Bn§x§F§9§D§E§5§Bk§x§F§B§D§F§5§Cs §x§F§D§E§1§5§Dt§x§F§E§E§2§5§Eh§x§F§F§E§2§5§De§x§F§F§E§0§5§Cy§x§F§F§D§E§5§Ar§x§F§F§D§C§5§8e §x§F§F§D§9§5§7p§x§F§F§D§7§5§5a§x§F§F§D§5§5§4r§x§F§F§D§3§5§2t §x§F§F§D§1§5§1o§x§F§F§C§F§4§Ff §x§F§F§C§D§4§Dt§x§F§F§C§B§4§Ch§x§F§F§C§8§4§Ae §x§F§F§C§6§4§9f§x§F§F§C§4§4§7r§x§F§F§C§2§4§6i§x§F§F§C§0§4§4e§x§F§F§B§E§4§2n§x§F§F§B§C§4§1d §x§F§F§B§A§3§Fg§x§F§F§B§7§3§Er§x§F§F§B§5§3§Co§x§F§F§B§3§3§Bu§x§F§F§B§1§3§9p",
+  "§x§D§8§C§0§4§CS§x§D§C§C§4§4§Ek§x§E§1§C§8§5§0i§x§E§5§C§C§5§2b§x§E§9§D§0§5§4b§x§E§E§D§3§5§6i§x§F§2§D§7§5§8d§x§F§6§D§B§5§Ai §x§F§B§D§F§5§Ct§x§F§F§E§3§5§Eo§x§F§F§D§D§5§Ai§x§F§F§D§8§5§6l§x§F§F§D§2§5§2e§x§F§F§C§D§4§Et §x§F§F§C§7§4§96§x§F§F§C§2§4§59§x§F§F§B§C§4§14§x§F§F§B§7§3§D2§x§F§F§B§1§3§90",
+  "§x§D§8§C§0§4§C(§x§D§D§C§4§4§EW§x§E§1§C§8§5§0i§x§E§6§C§C§5§2l§x§E§A§D§0§5§4l§x§E§F§D§5§5§7y §x§F§4§D§9§5§9w§x§F§8§D§D§5§Ba§x§F§D§E§1§5§Dt§x§F§F§E§0§5§Cc§x§F§F§D§A§5§7h§x§F§F§D§4§5§3e§x§F§F§C§E§4§Fr §x§F§F§C§9§4§A9§x§F§F§C§3§4§60§x§F§F§B§D§4§20§x§F§F§B§7§3§D0§x§F§F§B§1§3§9)",
+  "§x§D§8§C§0§4§CI §x§E§8§C§E§5§3t§x§F§7§D§C§5§Ah§x§F§F§D§9§5§7i§x§F§F§C§5§4§8n§x§F§F§B§1§3§9k",
+  "§x§D§8§C§0§4§CA§x§D§B§C§2§4§Dn§x§D§D§C§5§4§Ed §x§E§0§C§7§5§0k§x§E§2§C§9§5§1e§x§E§5§C§C§5§2e§x§E§8§C§E§5§3p §x§E§A§D§0§5§4t§x§E§D§D§3§5§6h§x§E§F§D§5§5§7e §x§F§2§D§7§5§8c§x§F§5§D§A§5§9h§x§F§7§D§C§5§Aa§x§F§A§D§E§5§Cn§x§F§C§E§1§5§Dg§x§F§F§E§3§5§Ee §x§F§F§E§0§5§Cy§x§F§F§D§C§5§9o§x§F§F§D§9§5§7u §x§F§F§D§6§5§4f§x§F§F§D§2§5§2i§x§F§F§C§F§4§Fl§x§F§F§C§C§4§Dt§x§F§F§C§8§4§Ah§x§F§F§C§5§4§8y §x§F§F§C§2§4§5a§x§F§F§B§E§4§3n§x§F§F§B§B§4§0i§x§F§F§B§8§3§Em§x§F§F§B§4§3§Ba§x§F§F§B§1§3§9l"
+]
+
+# playerQuit Message option
+playerDeathMessages: [
+  "§cLMFAO",
+  "§cGGEZ",
+  "§cUtterly Shameful",
+  "§cKeep inventory is not enabled buddy",
+  "§cFF",
+  "§cOpen your eyes kid",
+  "§cHealth <= 0 = true",
+  "§cthats peak...",
+  "§c'is it hardcore?'",
+  "§ckaput,",
+  "§clag ->"
+]
+
+MVPplayerDeathMessages: [
+  "§x§C§2§0§0§0§0L§x§9§B§0§0§0§0M§x§7§4§0§0§0§0F§x§8§3§0§0§0§0A§x§9§1§0§0§0§0O",
+  "§x§C§2§0§0§0§0G§x§8§E§0§0§0§0G§x§7§E§0§0§0§0E§x§9§1§0§0§0§0Z",
+  "§x§C§2§0§0§0§0U§x§B§7§0§0§0§0t§x§A§C§0§0§0§0t§x§A§1§0§0§0§0e§x§9§5§0§0§0§0r§x§8§A§0§0§0§0l§x§7§F§0§0§0§0y §x§7§4§0§0§0§0S§x§7§8§0§0§0§0h§x§7§C§0§0§0§0a§x§8§0§0§0§0§0m§x§8§5§0§0§0§0e§x§8§9§0§0§0§0f§x§8§D§0§0§0§0u§x§9§1§0§0§0§0l",
+  "§x§C§2§0§0§0§0K§x§B§D§0§0§0§0e§x§B§7§0§0§0§0e§x§B§2§0§0§0§0p §x§A§C§0§0§0§0i§x§A§7§0§0§0§0n§x§A§2§0§0§0§0v§x§9§C§0§0§0§0e§x§9§7§0§0§0§0n§x§9§2§0§0§0§0t§x§8§C§0§0§0§0o§x§8§7§0§0§0§0r§x§8§1§0§0§0§0y §x§7§C§0§0§0§0i§x§7§7§0§0§0§0s §x§7§5§0§0§0§0n§x§7§7§0§0§0§0o§x§7§9§0§0§0§0t §x§7§B§0§0§0§0e§x§7§D§0§0§0§0n§x§7§F§0§0§0§0a§x§8§1§0§0§0§0b§x§8§3§0§0§0§0l§x§8§5§0§0§0§0e§x§8§7§0§0§0§0d §x§8§9§0§0§0§0b§x§8§B§0§0§0§0u§x§8§D§0§0§0§0d§x§8§F§0§0§0§0d§x§9§1§0§0§0§0y",
+  "§x§C§2§0§0§0§0F§x§C§2§0§0§0§0F",
+  "§x§C§2§0§0§0§0O§x§B§7§0§0§0§0p§x§A§C§0§0§0§0e§x§A§1§0§0§0§0n §x§9§5§0§0§0§0y§x§8§A§0§0§0§0o§x§7§F§0§0§0§0u§x§7§4§0§0§0§0r §x§7§8§0§0§0§0e§x§7§C§0§0§0§0y§x§8§0§0§0§0§0e§x§8§5§0§0§0§0s §x§8§9§0§0§0§0k§x§8§D§0§0§0§0i§x§9§1§0§0§0§0d",
+  "§x§C§2§0§0§0§0H§x§B§6§0§0§0§0e§x§A§A§0§0§0§0a§x§9§E§0§0§0§0l§x§9§2§0§0§0§0t§x§8§6§0§0§0§0h §x§7§A§0§0§0§0<§x§7§6§0§0§0§0= §x§7§B§0§0§0§00 §x§7§F§0§0§0§0= §x§8§4§0§0§0§0t§x§8§8§0§0§0§0r§x§8§D§0§0§0§0u§x§9§1§0§0§0§0e",
+  "§x§C§2§0§0§0§0t§x§B§4§0§0§0§0h§x§A§6§0§0§0§0a§x§9§7§0§0§0§0t§x§8§9§0§0§0§0s §x§7§B§0§0§0§0p§x§7§7§0§0§0§0e§x§7§C§0§0§0§0a§x§8§1§0§0§0§0k§x§8§6§0§0§0§0.§x§8§C§0§0§0§0.§x§9§1§0§0§0§0.",
+  "§x§C§2§0§0§0§0§§x§B§8§0§0§0§0c§x§A§F§0§0§0§0'§x§A§5§0§0§0§0i§x§9§B§0§0§0§0s §x§9§1§0§0§0§0i§x§8§8§0§0§0§0t §x§7§E§0§0§0§0h§x§7§4§0§0§0§0a§x§7§8§0§0§0§0r§x§7§B§0§0§0§0d§x§7§F§0§0§0§0c§x§8§3§0§0§0§0o§x§8§6§0§0§0§0r§x§8§A§0§0§0§0e§x§8§D§0§0§0§0?§x§9§1§0§0§0§0'",
+  "§x§C§2§0§0§0§0k§x§A§3§0§0§0§0a§x§8§4§0§0§0§0p§x§7§A§0§0§0§0u§x§8§5§0§0§0§0t§x§9§1§0§0§0§0,",
+  "§x§C§2§0§0§0§0l§x§9§B§0§0§0§0a§x§7§4§0§0§0§0g §x§8§3§0§0§0§0-§x§9§1§0§0§0§0>"
+]
+

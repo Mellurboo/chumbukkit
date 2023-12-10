@@ -4,8 +4,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,21 +17,12 @@ public final class CustomJoinMessage extends JavaPlugin implements Listener {
     public String prefix = "[CustomJoinMessage] ";
     public String[] playerJoinMessages;
     public String[] playerQuitMessages;
+    public String[] playerDeathMessages;
 
-//    public String[] playerDeathMessages = {
-//            "§fLMFAO",
-//            "§cGGEZ",
-//            "§fUtterly Shameful",
-//            "§eKeep inventory is not enabled buddy",
-//            "§cFF",
-//            "§fOpen your eyes kid",
-//            "§fin what world does",
-//            "§fthats peak...",
-//            "§c'is it hardcore?'",
-//            "§fkaput,",
-//            "§elag ->"
-//
-//    };
+    public String[] MVPplayerJoinMessages;
+    public String[] MVPplayerQuitMessages;
+    public String[] MVPplayerDeathMessages;
+
 
 
     @Override
@@ -52,18 +45,38 @@ public final class CustomJoinMessage extends JavaPlugin implements Listener {
         //Load Join Messages from config.yml
         playerJoinMessages = config.getStringList("playerJoinMessages").stream()
                 .toArray(String[]::new);
+        MVPplayerJoinMessages = config.getStringList("MVPplayerJoinMessages").stream()
+                .toArray(String[]::new);
+
         playerQuitMessages = config.getStringList("playerQuitMessages").stream()
+                .toArray(String[]::new);
+        MVPplayerQuitMessages = config.getStringList("playerQuitMessages").stream()
+                .toArray(String[]::new);
+
+        playerDeathMessages = config.getStringList("playerDeathMessages").stream()
+                .toArray(String[]::new);
+        MVPplayerQuitMessages = config.getStringList("MVPplayerDeathMessages").stream()
                 .toArray(String[]::new);
     }
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.setJoinMessage(playerJoinMessages[(int) (Math.random() * playerJoinMessages.length - 1)] + " " + event.getPlayer().getName() + " has joined the Server");
+        Player player  = event.getPlayer();
+        if (!(player.hasPermission("MVPPerks.isMVP"))){
+            event.setJoinMessage("§a" + playerJoinMessages[(int) (Math.random() * playerJoinMessages.length)] + " " + event.getPlayer().getName() + " has joined the Server");
+        }else {
+            event.setJoinMessage(MVPplayerJoinMessages[(int) (Math.random() * MVPplayerJoinMessages.length)] + " [MVP] " + event.getPlayer().getName() + " has joined the Server");
+        }
     }
 
     @EventHandler
     public void onPlayerLeave(PlayerQuitEvent event){
-        event.setQuitMessage(playerQuitMessages[(int) (Math.random() * playerQuitMessages.length - 1)] + " " + event.getPlayer().getName() + " has left the Server");
+        Player player  = event.getPlayer();
+        if (!(player.hasPermission("MVPPerks.isMVP"))) {
+            event.setQuitMessage("§c" + playerQuitMessages[(int) (Math.random() * playerQuitMessages.length)] + " " + event.getPlayer().getName() + " has left the Server");
+        }else {
+            event.setQuitMessage(MVPplayerQuitMessages[(int) (Math.random() * MVPplayerQuitMessages.length)] + " [MVP] " + event.getPlayer().getName() + " has left the Server");
+        }
     }
 
     @Override
@@ -81,16 +94,19 @@ public final class CustomJoinMessage extends JavaPlugin implements Listener {
         }
         return false;
     }
-/*
-    @EventHandler
-    public void onPlayerDie(PlayerDeathEvent event){
-        String deathCause = event.deathMessage().toString();
-        event.setDeathMessage(null);
-        String playerName = event.getPlayer().getName();
 
-        int randomSentence = (int) (Math.random() * playerDeathMessages.length - 1);
-        Bukkit.broadcastMessage(playerDeathMessages[randomSentence] + " " + playerName + deathCause);
+    @EventHandler
+    public void onPlayerDeath(PlayerDeathEvent event){
+        String deathCause = event.getDeathMessage();
+        Player player = (Player) event;
+        event.setDeathMessage(null);
+
+        int randomSentence = (int) (Math.random() * playerDeathMessages.length);
+        if (!(player.hasPermission("MVPPerks.isMVP"))){
+            Bukkit.broadcastMessage(playerDeathMessages[randomSentence] + " (" + deathCause + ")");
+        }else {
+            Bukkit.broadcastMessage(MVPplayerDeathMessages[randomSentence] + " (" + deathCause + ")");
+        }
     }
 
- */
 }

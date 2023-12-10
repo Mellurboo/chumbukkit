@@ -1,0 +1,8 @@
+name: MVPPerks
+version: '${project.version}'
+main: com.mellurboo.mvpperks.MVPPerks
+api-version: '1.20'
+permissions:
+  MVPPerks.isMVP:
+    description: is the player using a paid rank?
+    default: false
