@@ -18,4 +18,5 @@ All of the custom plugins for the ChumSMP are stored here
 ## Developers
 
 - [@Mellurboo](https://www.github.com/mellurboo)
+- [@YourAva](https://www.github.com/YourAva)
 
