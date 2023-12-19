@@ -6,3 +6,12 @@ permissions:
   MVPPerks.isMVP:
     description: is the player using a paid rank?
     default: false
+
+
+commands:
+  MVP.Reload:
+    description: reloads the plugin config
+  MVPGRANT:
+    description: message display
+  store:
+    description: opens store

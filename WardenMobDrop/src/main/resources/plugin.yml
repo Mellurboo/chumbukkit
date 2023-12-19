@@ -3,6 +3,5 @@ version: '${project.version}'
 main: com.mellurboo.wardenmobdrop.WardenMobDrop
 api-version: '1.20'
 commands:
-  wardendrops.reloadconfig:
+  warden.reloadconfig:
     description: Reloads the config.yml file without restarting
-    usage: /wardenReloadConfig
