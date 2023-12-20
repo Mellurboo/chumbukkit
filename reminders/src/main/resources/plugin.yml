@@ -1,0 +1,7 @@
+name: reminders
+version: '${project.version}'
+main: com.mellurboo.reminders.Reminders
+api-version: '1.20'
+commands:
+  reminders.reload:
+    description: reloads the plugin

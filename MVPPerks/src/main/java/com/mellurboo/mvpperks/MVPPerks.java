@@ -76,7 +76,8 @@ public final class MVPPerks extends JavaPlugin implements Listener {
         Block block = event.getBlock();
 
         if (block instanceof Ageable && ((Ageable) block).getAge() == 7){
-            player.giveExp();
+            int finalExp = event.getExpToDrop() * expMultipler;
+            event.setExpToDrop(finalExp);
         }
     }
 
