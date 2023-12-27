@@ -1,0 +1,8 @@
+name: handbook
+version: '${project.version}'
+main: com.mellurboo.handbook.Handbook
+api-version: '1.20'
+commands:
+  handbook:
+    description: gives the player the handbook
+

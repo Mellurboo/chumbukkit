@@ -98,14 +98,16 @@ public final class PlayerChatMessages extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event){
         String deathCause = event.getDeathMessage();
-        Player player = (Player) event;
-        event.setDeathMessage(null);
+        Player player = event.getPlayer();
+        if (player != null){
+            event.setDeathMessage(null);
 
-        int randomSentence = (int) (Math.random() * playerDeathMessages.length);
-        if (!(player.hasPermission("MVPPerks.isMVP"))){
-            Bukkit.broadcastMessage(playerDeathMessages[randomSentence] + " (" + deathCause + ")");
-        }else {
-            Bukkit.broadcastMessage(MVPplayerDeathMessages[randomSentence] + " (" + deathCause + ")");
+            int randomSentence = (int) (Math.random() * playerDeathMessages.length);
+            if (!(player.hasPermission("MVPPerks.isMVP"))){
+                Bukkit.broadcastMessage(playerDeathMessages[randomSentence] + " (" + deathCause + ")");
+            }else {
+                Bukkit.broadcastMessage(MVPplayerDeathMessages[randomSentence] + " (" + deathCause + ")");
+            }
         }
     }
 

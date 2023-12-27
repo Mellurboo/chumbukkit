@@ -13,5 +13,3 @@ commands:
     description: reloads the plugin config
   MVPGRANT:
     description: message display
-  store:
-    description: opens store

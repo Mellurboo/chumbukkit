@@ -1,0 +1,18 @@
+#
+# Myles "Mellurboo" Wilson 2023
+#
+
+PlayerNotFound: "§cPlayer Not Found or they're not online"
+recipientPrompt: "§e Has requested to teleport to you, use /tpaccept or /tpdeny"
+senderPrompt: "§eTeleport request sent to "
+noRequests: "§cYou have no pending request(s)"
+
+requestAcceptedSender: "§e Has accepted your TP request"
+senderAccepted: "§e Teleport Request Accepted"
+playerNotOnline: "§c the player who sent this request is no longer online!"
+senderDeniedTPA: "§c Has denied your teleport request"
+recipientDeniedTPA: "§cTeleport request denied"
+
+
+expCostLevels: 3
+senderNotEnoughExp: "§cYou do not have enough exp to complete this request, cost: "

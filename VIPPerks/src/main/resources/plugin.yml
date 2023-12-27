@@ -1,0 +1,10 @@
+name: VIPPerks
+version: '${project.version}'
+main: com.mellurboo.vipperks.VIPPerks
+api-version: '1.20'
+commands:
+  vipgrant:
+    description: cool chat msg
+  vip.reload:
+    description: reloads config
+
