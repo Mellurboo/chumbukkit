@@ -14,5 +14,5 @@ senderDeniedTPA: "§c Has denied your teleport request"
 recipientDeniedTPA: "§cTeleport request denied"
 
 
-expCostLevels: 3
+expCost: 27
 senderNotEnoughExp: "§cYou do not have enough exp to complete this request, cost: "

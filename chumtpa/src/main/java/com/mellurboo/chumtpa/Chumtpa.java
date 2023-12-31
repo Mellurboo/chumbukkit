@@ -49,7 +49,7 @@ public final class Chumtpa extends JavaPlugin implements Listener {
         senderDeniedTPA = config.getString("senderDeniedTPA", "§c Has denied your teleport request");
         recipientDeniedTPA = config.getString("recipientDeniedTPA", "§cTeleport request denied");
         notEnoughExp = config.getString("senderNotEnoughExp", "§cYou do not have enough exp to complete this request, cost: ");
-        expCost = config.getInt("expCostLevels", 3);
+        expCost = config.getInt("expCost",27);
 
     }
 
@@ -80,14 +80,14 @@ public final class Chumtpa extends JavaPlugin implements Listener {
                 return true;
             }
 
-            if (((Player) sender).getExpToLevel() >= 3){
-                senderPlayer.setLevel(senderPlayer.getExpToLevel() - 3);
+            if (((Player) sender).getExp() >= expCost){
+                senderPlayer.setExp(senderPlayer.getExp() - expCost);
 
                 teleportRequests.put(target.getUniqueId(), senderPlayer.getUniqueId());
                 target.sendMessage(senderPlayer.getName() + recipientPrompt);
                 senderPlayer.sendMessage(senderPrompt + target.getName());
             }else {
-                sender.sendMessage(notEnoughExp + expCost);
+                sender.sendMessage(notEnoughExp + expCost + " you have " + ((Player) sender).getExp());
             }
 
         } else if (command.getName().equalsIgnoreCase("tpaccept")) {

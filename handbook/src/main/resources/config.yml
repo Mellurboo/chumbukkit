@@ -1,10 +1,9 @@
 server-info:
   title: "Server Handbook"
-  author: "Server Admin"
+  author: "Owner Mellurboo"
   pages:
-    - "Welcome to the server!"
-    - "Server Rules:"
-    - "1. Be respectful."
-    - "2. No griefing."
-    - "3. Have fun!"
-    - "Thank you for playing on our server!"
+    - "§nWelcome to the ChumSMP§r\nYou can read this book any time by doing /handbook\nThe chumsmp is a simple survival tweaks server,\nthe rules are in our discord, however let me introduce you to the tweaks."
+    - "Graves\n\nGraves dissapear after 5 hours\nhowever they stop your loot despawning\nyour respawned body will be given an death compass!"
+    - "Heart of Gold\n\nMining gold ore with a non-silk touch pickaxe has a small chance of giving you an extra half a heart (which maxes out at +3 whole hearts) dying removes 1 full of your extra gained hearts only!"
+    - "Chum TPA\n\nYou can TPA, however if the TPA is accepted -3 exp points are taken from the player"
+    - "Our store\n\nTo support the server you can get yourself a server rank, which helps us pay for upkeep AND gives you cool as fuck benefits! run /store or go to \n\nhttps://chumsmp.tebex.io"
